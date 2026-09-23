@@ -20,18 +20,6 @@ Public-facing PDF reports and academic documents used by the site should be plac
 
 For team projects, the website focuses on my own contribution while the linked PDFs can remain the complete original project documents.
 
-## Before publishing
-
-Replace the remaining placeholders in `index.html`:
-
-- `YOUR_EMAIL_HERE`
-- `YOUR_LINKEDIN_URL_HERE`
-- `ADD YOUR EXACT DEGREE TITLE`
-- `ADD STUDY PERIOD / EXPECTED GRADUATION`
-- the CSR personal-contribution text
-
-Add your résumé as `resume.pdf` and replace the project screenshot placeholders as you collect screenshots.
-
 ## Built With
 
 - HTML
@@ -39,8 +27,8 @@ Add your résumé as `resume.pdf` and replace the project screenshot placeholder
 - JavaScript
 - GitHub Pages
 
-I kept the portfolio itself simple so the focus stays on the projects and the work behind them.
-
 ## Usage
 
-This portfolio and its source code are for personal showcase purposes. Please do not copy, redistribute or reuse the code or design without permission.
+This portfolio is for showcase purposes only. The code, design, content, and project materials may not be copied, modified, redistributed, or reused without permission.
+
+All rights reserved.

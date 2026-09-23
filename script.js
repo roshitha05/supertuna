@@ -1,22 +1,32 @@
-const year = document.getElementById("year");
-if (year) year.textContent = new Date().getFullYear();
+const yearElement = document.getElementById("year");
+if (yearElement) {
+  yearElement.textContent = new Date().getFullYear();
+}
 
 const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-document.querySelectorAll('a[href^="#"]').forEach((link) => {
-  link.addEventListener("click", (event) => {
-    const selector = link.getAttribute("href");
-    if (!selector || selector === "#") return;
+const handleAnchorNavigation = (event) => {
+  const link = event.currentTarget;
+  const selector = link.getAttribute("href");
 
-    const target = document.querySelector(selector);
-    if (!target) return;
+  if (!selector || selector === "#") {
+    return;
+  }
 
-    event.preventDefault();
-    target.scrollIntoView({
-      behavior: prefersReducedMotion ? "auto" : "smooth",
-      block: "start",
-    });
+  const target = document.querySelector(selector);
+  if (!target) {
+    return;
+  }
+
+  event.preventDefault();
+  target.scrollIntoView({
+    behavior: prefersReducedMotion ? "auto" : "smooth",
+    block: "start",
   });
+};
+
+document.querySelectorAll('a[href^="#"]').forEach((link) => {
+  link.addEventListener("click", handleAnchorNavigation);
 });
 
 const backToTop = document.querySelector(".back-to-top");

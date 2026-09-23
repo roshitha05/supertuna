@@ -16,8 +16,6 @@ It includes software development, backend, DevOps, DevSecOps and security work, 
 
 ## Project documents
 
-Public-facing PDF reports and academic documents used by the site should be placed under `assets/documents/` using the paths referenced in `index.html`.
-
 For team projects, the website focuses on my own contribution while the linked PDFs can remain the complete original project documents.
 
 ## Built With

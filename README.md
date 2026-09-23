@@ -11,8 +11,8 @@ It includes software development, backend, DevOps, DevSecOps and security work, 
 - CloudLatch — DevOps project using Docker, Terraform, GitHub Actions and LocalStack
 - Roomora — room booking frontend built with HTML, CSS and JavaScript
 - News Release System — final year team project using JavaScript and Supabase
-- CSR Platform — full-stack university team project from 2025
-- Infrastructure & Applied Security Simulations — Python/Linux security labs from 2025
+- CSR Platform — full-stack university team project
+- Infrastructure & Applied Security Simulations — Python/Linux security lab 
 
 ## Project documents
 
